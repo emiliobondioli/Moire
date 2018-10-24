@@ -1,0 +1,23 @@
+# 'EAGLE Version 9.2.0 Copyright (c) 1988-2018 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Migrate parts to 'C:/Users/ebond/Documents/EAGLE/projects/Moire/moire_v1.7.lbr'
+USE -*;
+USE 'C:/Users/ebond/Documents/EAGLE/projects/Moire/moire_v1.7.lbr';
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+REPLACE D3 DIODE_DIODE-SOD523;
+REPLACE D4 DIODE_DIODE-SOD523;
+REPLACE D5 DIODE_DIODE-SOD523;
+#
+# SHEET 2 - MIGRATE PARTS
+#
+EDIT .s2
+REPLACE D1 DIODE_DIODE-SOD123;
+REPLACE D2 DIODE_DIODE-SOD123;
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;
