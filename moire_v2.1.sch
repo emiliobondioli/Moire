@@ -18334,7 +18334,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <part name="SW_B" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="SW_C" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="J10" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
-<part name="R43" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R43" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R32" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R31" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="20k"/>
 <part name="C33" library="moire_v1.5-routed" deviceset="RCL_C-US" device="C0603" value="100p"/>
@@ -18428,18 +18428,18 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <part name="D5" library="moire_v1.7" deviceset="DIODE_DIODE-" device="SOD523" value="1N4148"/>
 <part name="GND56" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
-<part name="IC6" library="og-linear" deviceset="TL074" device="PW" value="LM324PW"/>
-<part name="R39" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="IC6" library="og-linear" deviceset="TL074" device="PW" value="LM324"/>
+<part name="R39" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R44" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R47" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="69.8k"/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
 <part name="R13" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="10k"/>
-<part name="R38" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R38" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R41" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R46" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="69.8k"/>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
 <part name="R12" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="10k"/>
-<part name="R37" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R37" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R36" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R45" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="69.8k"/>
 <part name="GND34" library="SparkFun" deviceset="GND" device=""/>
@@ -18451,13 +18451,13 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R30" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="30k"/>
 <part name="GND61" library="SparkFun" deviceset="GND" device=""/>
-<part name="R42" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R42" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R29" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R28" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="20k"/>
 <part name="C32" library="moire_v1.5-routed" deviceset="RCL_C-US" device="C0603" value="100p"/>
 <part name="R27" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="30k"/>
 <part name="GND62" library="SparkFun" deviceset="GND" device=""/>
-<part name="R40" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R40" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 <part name="R35" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="100k"/>
 <part name="R34" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="20k"/>
 <part name="C34" library="moire_v1.5-routed" deviceset="RCL_C-US" device="C0603" value="100p"/>
@@ -18507,13 +18507,13 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="LED2" library="og-leds" deviceset="LED-BICOLOR-SHARED-THROUGHHOLE" device="" value="WP937EGW"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="IC14" library="linear" deviceset="TL074" device="PW"/>
+<part name="IC14" library="linear" deviceset="TL074" device="PW" value="LM324"/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="C36" library="moire_v1.5-routed" deviceset="RCL_C-US" device="C0603" value="100n"/>
 <part name="C37" library="moire_v1.5-routed" deviceset="RCL_C-US" device="C0603" value="100n"/>
-<part name="R48" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
-<part name="R49" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
-<part name="R50" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1.0k"/>
+<part name="R48" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
+<part name="R49" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
+<part name="R50" library="moire_v1.5-routed" deviceset="RCL_R-US_" device="R0603" value="1k"/>
 </parts>
 <sheets>
 <sheet>
