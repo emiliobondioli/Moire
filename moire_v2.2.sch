@@ -19867,6 +19867,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <segment>
 <wire x1="53.34" y1="-33.02" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 <label x="53.34" y="-33.02" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="C_TRIG" class="0">
@@ -20007,13 +20008,6 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <pinref part="U1" gate="G$1" pin="PA14"/>
 <wire x1="91.44" y1="-43.18" x2="106.68" y2="-43.18" width="0.1524" layer="91"/>
 <label x="88.9" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SWDIO" class="0">
-<segment>
-<wire x1="109.22" y1="-129.54" x2="111.76" y2="-129.54" width="0.1524" layer="91"/>
-<label x="111.76" y="-129.54" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="A_CV" class="0">
@@ -20864,6 +20858,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <segment>
 <wire x1="53.34" y1="-38.1" x2="55.88" y2="-38.1" width="0.1524" layer="91"/>
 <label x="53.34" y="-38.1" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$27" class="1">
@@ -21105,6 +21100,11 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <wire x1="53.34" y1="-40.64" x2="55.88" y2="-40.64" width="0.1524" layer="91"/>
 <label x="53.34" y="-40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="109.22" y1="-129.54" x2="111.76" y2="-129.54" width="0.1524" layer="91"/>
+<label x="111.76" y="-129.54" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="C_CV_SS" class="0">
 <segment>
@@ -21115,6 +21115,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <segment>
 <wire x1="53.34" y1="-35.56" x2="55.88" y2="-35.56" width="0.1524" layer="91"/>
 <label x="53.34" y="-35.56" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>
